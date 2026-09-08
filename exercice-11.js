@@ -18,3 +18,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let panier =550;
+if (panier>200 && panier<500){
+    console.log("la livraison est gratuite")
+}else if(panier>500){
+    console.log(panier=panier+(panier*0.1))
+}
